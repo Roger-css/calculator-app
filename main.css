@@ -209,9 +209,10 @@ footer a {
   text-decoration: none;
   color: var(--a);
 }
-@media (max-width: 576px) {
+
+@media (min-width: 576px) {
   .calculator {
-    width: 320px;
+    width: 300px;
   }
   #screen-holder {
     height: 150px;
