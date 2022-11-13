@@ -201,10 +201,8 @@ body {
   background-color: var(--equal-bg-onClick);
 }
 footer {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  height: 39px;
+  text-align: center;
   color: var(--text);
 }
 footer a {
@@ -213,8 +211,7 @@ footer a {
 }
 @media (max-width: 576px) {
   .calculator {
-    width: 350px;
-    height: 500px;
+    width: 320px;
   }
   #screen-holder {
     height: 150px;
