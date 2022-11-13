@@ -214,13 +214,13 @@ footer a {
 @media (max-width: 576px) {
   .calculator {
     width: 350px;
-    height: 700px;
+    height: 500px;
   }
   #screen-holder {
     height: 150px;
   }
   .btns-holder {
-    height: 400px;
+    height: 330px;
   }
   .equal {
     padding: 10px 0;
